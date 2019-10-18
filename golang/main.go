@@ -1,7 +1,8 @@
 package main
 
-import "github.com/travel-thru/inin-document/golang/articles_time"
+import "github.com/travel-thru/inin-document/golang/article_slice"
 
 func main() {
-	articles_time.InInTime()
+	//articles_time.InInTime()
+	article_slice.InInSlice()
 }
