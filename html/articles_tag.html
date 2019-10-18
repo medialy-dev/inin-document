@@ -1,0 +1,33 @@
+<!-- 
+  aタグはリンクを作るタグになります。
+
+  hrefにリンクを書きます。hrefには相対パスの設定ができます。
+-->
+
+<a href="https://yahoo.co.jp">yahoo</a>
+
+<!-- 相対パスの場合 -->
+
+<a href="../hoge.html">hoge</a>
+
+<!-- 同じページ内でのインライン要素への移動 -->
+
+<a href="#hoge">hogeへ飛ぶ</a>
+
+<!-- 新たにタブでリンクを開く場合 -->
+
+<!-- target属性について -->
+<!-- target一覧 （テーブルで記述すること markdownでかけるように玉置が作ってから）
+  _self
+  _parent
+  _top
+  _blank
+-->
+
+<!-- 何もtargetに設定しない場合は selfになる -->
+<a href="https://yahoo.co.jp" target="_self">yahoo 同じタブ</a>
+<a href="https://yahoo.co.jp" target="_blank">yahoo 新規タブ</a>
+<a href="https://yahoo.co.jp" target="_parent">yahoo 親ウィンドウ</a>
+
+<div style="margin-bottom: 1000px"></div>
+<h2 id="hoge">飛ばされ先</h2>
